@@ -30,7 +30,7 @@ function submit() {
             name.textContent = data.username;
             bio.textContent = data.bio;
 
-            const Token = document.getElementById("p_access_token");
+/*            const Token = document.getElementById("p_access_token");
             Token.appendChild(token);
 
             const Id = document.getElementById("p_user_id");
@@ -43,7 +43,7 @@ function submit() {
             Name.appendChild(name);
 
             const Bio = document.getElementById("p_bio");
-            Bio.appendChild(bio);
+            Bio.appendChild(bio);*/
 
             if (token.textContent == 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNywicHJvZmlsZV91cmwiOiJodHRwOi8vMy4zNy4xNDAuMjA6NTAwMC9pbWFnZS8yMTY0ZWQ2YS0zZTExLTQ3MmYtOWNiMC0zMWI0NDUyNjQzMmQucG5nIiwidXNlcm5hbWUiOiJhZG1pbiIsImJpbyI6ImFkbWluIn0.VDIEA2xxSLy64LdxKCBFaGO7s5N2vNspv0CUakUXAZ8') {
                 location.href = "./pr/index.html"
